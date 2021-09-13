@@ -1,0 +1,123 @@
+* {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* general styles */
+
+.flex-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    background-color: rgb(240,200,60);
+    /* porque no se copia a los otros botones */
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+/* Nav styles */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 0.1em;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 0em 1em;
+    margin: 0em 7em;
+}
+
+input[type="search"] {
+    width:35%;
+    line-height: 2;
+    border: 1px solid black;
+}
+
+.nav button {
+    background-color:rgb(38,109,224);
+    color: white;
+    order: 2;
+    
+}
+
+
+/* entry style */
+.entry {
+    border: 2px solid grey;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    margin: 1em 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* porque esto no funciona?  */
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.entry-col-right {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    padding: 2em;
+    margin: 1em 1em;
+}
+
+.entry-col-right button {
+    background-color: rgb(136,188,114);
+}
+
+a {
+    color: rgba(15, 80, 201, 0.721);
+}
+
+.body input {
+    padding: 1em 2em;
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
+    background-color: rgb(255,212,91) ;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.shadow {
+    box-shadow: 3px 3px black;
+}
+
+
+
+
+
+
+
+
+

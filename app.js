@@ -71,6 +71,7 @@ for (let i=0; i<likeBtn.length;i++) {
 
     let likeNumber = 1;
     function addLike(event) {
+        alert("Ninja was liked")
         event.target.innerText = `${likeNumber} likes`;
         likeNumber = likeNumber+1;
 }
